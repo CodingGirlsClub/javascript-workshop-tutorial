@@ -42,5 +42,58 @@
 </html>
 ```
 
+### 二、JS代码
+
+JS代码包含有效的执行语句和注释的无效部分。
+
+JS代码的注释有行内注释（//）和注释块（/\* 注释内容 \*/）。
+
+// 只能在一行中，只有一行中的第一个//有效，第一个//后面的所有本行内的内容均为注释信息。
+
+/\* 注释内容 \*/ 可以跨行，以/\*开始，以\*/结束。
+
+```
+<script>
+// 这是行内注释
+alert("My First JavaScript");
+/*
+这是注释块，
+可多行
+*/
+</script>
+```
+
+### 三、JS操作HTML元素
+
+JavaScript 通常用于操作 HTML 元素。如需从 JavaScript 访问某个 HTML 元素，您可以使用 document.getElementById\(id\) 方法。
+
+通常使用 "id" 属性来标识 HTML 元素，示例如下：
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1></h1>
+
+<p id="demo">My First Paragraph.</p>
+
+<script>
+// 通过指定的 id 来访问 HTML 元素，并改变其内容
+document.getElementById("demo").innerHTML="My First JavaScript";
+</script>
+
+</body>
+</html>
+```
+
+[在线试一试](http://www.w3school.com.cn/tiy/t.asp?f=js_dom)
+
+
+
+
+
+
+
 
 
