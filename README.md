@@ -37,7 +37,7 @@
 
 [https://tutorial.girlscodingday.org/Kickoff/4-Web-Basics.html](https://tutorial.girlscodingday.org/Kickoff/4-Web-Basics.html)
 
-必要说明：
+### 必要说明：
 
-由于学习对象主要是零基础学员，ECMAScript 6 或 ECMAScript 7学习难度大，因此本教程的JavaScript是ECMAScript 5。
+由于学习对象主要是零基础学员，ECMAScript 6 或 ECMAScript 7学习难度大，因此本教程的JavaScript是**ECMAScript 5**。
 
