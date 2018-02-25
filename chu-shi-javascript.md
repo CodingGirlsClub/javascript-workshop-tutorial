@@ -3,7 +3,7 @@
 ### 本章目标：
 
 1. 了解 JavaScript 是如何与 HTML 和 CSS 一起工作的？
-2. 掌握JavaScript的实例。
+2. 掌握JavaScript的常用术语。
 
 ### 什么是JavaScript？
 
@@ -13,9 +13,13 @@ JavaScript是一种轻量级脚本语言，是目前互联网上最流行的编�
 
 一个web网页包含三个要素：HTML，CSS和JavaScript。每个要素各司其职，
 
-* HTML负责呈现网页的内容
-* CSS负责网页的布局和样式
+* HTML负责呈现网页的内容（详细了解前往[https://tutorial.girlscodingday.org/HTML/](https://tutorial.girlscodingday.org/HTML/)）
+* CSS负责网页的布局和样式（详细了解前往[https://tutorial.girlscodingday.org/CSS/](https://tutorial.girlscodingday.org/CSS/)）
 * JavaScript主导网页的行为（包括动态加载网页的内容，和动态修改网页的布局和样式）
+
+![](/assets/HCJ.png)
+
+~~HTML（同一个人） + CSS（不同的衣服首饰） + JS（不同的动作）= WEB 网页（截然不同的呈现状态图）~~----【例子待完善】
 
 ### JavaScript（简称JS）常用术语
 
@@ -115,7 +119,7 @@ while
 with
 ```
 
-* ####  HTML DOM\(Document Object Model 文档对象模型\)
+* #### HTML DOM\(Document Object Model 文档对象模型\)
 
 当网页被加载时，浏览器会创建页面的文档对象模型，**HTML DOM**模型被构造为**对象**的树：
 
@@ -144,8 +148,4 @@ JavaScript 高级程序设计（特别是对浏览器差异的复杂处理），
 为了应对这些调整，许多的**JavaScript \(helper\)**库应运而生。这些 JavaScript 库常被称为**JavaScript 框架**。
 
 在本教程中，我们将了解到一些广受欢迎的 JavaScript 框架 jQuery。有兴趣也可以自己去了解一下目前最流行的一些框架，比如Vue, React等。所有这些框架都提供针对常见 JavaScript 任务的函数，包括动画、DOM 操作以及 Ajax 处理等。
-
-
-
-
 
