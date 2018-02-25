@@ -23,19 +23,21 @@
 
 [参见GCD的HTML和CSS教程之软件和工具](https://tutorial.girlscodingday.org/Kickoff/2-Software-Tool.html)
 
-https://tutorial.girlscodingday.org/Kickoff/2-Software-Tool.html
+[https://tutorial.girlscodingday.org/Kickoff/2-Software-Tool.html](https://tutorial.girlscodingday.org/Kickoff/2-Software-Tool.html)
 
 ### 教学方法：
 
 [参见GCD的HTML和CSS教程之教学方法](https://tutorial.girlscodingday.org/Kickoff/3-Learning-Method.html)
 
-https://tutorial.girlscodingday.org/Kickoff/3-Learning-Method.html
+[https://tutorial.girlscodingday.org/Kickoff/3-Learning-Method.html](https://tutorial.girlscodingday.org/Kickoff/3-Learning-Method.html)
 
 ### 教学背景：
 
 [参见GCD的HTML和CSS教程之WEB基本知识和历史](https://tutorial.girlscodingday.org/Kickoff/4-Web-Basics.html)
 
-https://tutorial.girlscodingday.org/Kickoff/4-Web-Basics.html
+[https://tutorial.girlscodingday.org/Kickoff/4-Web-Basics.html](https://tutorial.girlscodingday.org/Kickoff/4-Web-Basics.html)
 
+必要说明：
 
+由于学习对象主要是零基础学员，ECMAScript 6 或 ECMAScript 7学习难度大，因此本教程的JavaScript是ECMAScript 5。
 
