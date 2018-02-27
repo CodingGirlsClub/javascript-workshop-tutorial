@@ -85,6 +85,8 @@ JavaScript 通常用于操作 HTML 元素。
 <script>
 // 通过指定的 id 来访问 HTML 元素，并改变其内容
 document.getElementById("demo").innerHTML="My First JavaScript";
+// 使用注释来阻止执行
+//document.getElementById("myH1").innerHTML="Welcome to my Homepage";
 </script>
 
 </body>
