@@ -42,7 +42,7 @@
 </html>
 ```
 
-### 二、JS有效代码与 JS注释
+### 二、JS注释
 
 JS代码包含有效的执行语句和注部分。JS不会执行注释。
 
@@ -114,12 +114,4 @@ document.write("<p>My First JavaScript</p>");
 [在线试一试](http://www.w3school.com.cn/tiy/t.asp?f=js_write)
 
 **注意： document.write\(\) 仅仅向文档输出写内容。如果在html文档已完成加载后执行 document.write，整个 HTML 页面\(包括原来已经显示在HTML上的内容\)都将被覆盖。**
-
-
-
-
-
-
-
-
 
