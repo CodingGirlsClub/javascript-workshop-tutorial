@@ -136,27 +136,78 @@ $.get(URL,callback);
 
 ```
 $("button").click(function(){
-  $.get("demo_test.json",function(data,status){
-    alert("数据: " + data.test + "\n状态: " + status);
+  $.get("demo_test.asp",function(data,status){
+    alert("Data: " + data + "\nStatus: " + status);
   });
 });
 ```
 
-$.get\(\) 的第一个参数是我们希望请求的 URL（"demo\_test.json"）。
+[在线试一试](http://www.w3school.com.cn/tiy/t.asp?f=jquery_ajax_get)
+
+$.get\(\) 的第一个参数是我们希望请求的 URL（"demo\_test.asp"）。
 
 第二个参数是回调函数。第一个回调参数存有被请求页面的内容，第二个回调参数存有请求的状态。
 
-**提示：**这个JSON 文件 \("demo\_test.json"\) 类似这样：
+提示：这个 ASP 文件 \("demo\_test.asp"\) 类似这样：
 
 ```
-{"test": "这是个从JSON文件中读取的数据。"}
+<%
+response.write("This is some text from an external ASP file.")
+%>
 ```
 
+#### jQuery $.post\(\) 方法
 
+$.post\(\) 方法通过 HTTP POST 请求从服务器上请求数据。
 
+**语法:**
 
+```
+$.post(URL,data,callback);
+```
 
+必需的URL参数规定您希望请求的 URL。
 
+可选的data参数规定连同请求发送的数据。
+
+可选的callback参数是请求成功后所执行的函数名。
+
+下面的例子使用 $.post\(\) 连同请求一起发送数据：
+
+```
+$("button").click(function(){
+  $.post("demo_test_post.asp",
+  {
+    name:"Donald Duck",
+    city:"Duckburg"
+  },
+  function(data,status){
+    alert("Data: " + data + "\nStatus: " + status);
+  });
+});
+```
+
+[在线试一试](http://www.w3school.com.cn/tiy/t.asp?f=jquery_ajax_post)
+
+$.post\(\) 的第一个参数是我们希望请求的 URL \("demo\_test\_post.asp"\)。
+
+然后我们连同请求（name 和 city）一起发送数据。
+
+"demo\_test\_post.asp" 中的 ASP 脚本读取这些参数，对它们进行处理，然后返回结果。
+
+第三个参数是回调函数。第一个回调参数存有被请求页面的内容，而第二个参数存有请求的状态。
+
+提示：这个 ASP 文件 \("demo\_test\_post.asp"\) 类似这样：
+
+```
+<%
+dim fname,city
+fname=Request.Form("name")
+city=Request.Form("city")
+Response.Write("Dear " & fname & ". ")
+Response.Write("Hope you live well in " & city & ".")
+%>
+```
 
 
 
