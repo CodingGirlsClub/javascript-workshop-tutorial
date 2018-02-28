@@ -6,15 +6,12 @@
 4. 掌握移一两个流行的MVVM JavaScript框架（推荐Vue或React）；
 5. ……
 
-PS： 学习资源推荐：
+##### **PS： 学习资源推荐：**
 
-完整地学习一遍JavaScript的入门教程（http://www.runoob.com/js/js-tutorial.html）；
-
-JQuery的入门教程：http://www.w3school.com.cn/jquery/index.asp
-
-Vue的官网文档： https://cn.vuejs.org/v2/guide/
-
-React的中文文档： https://doc.react-china.org/docs/hello-world.html
+* 完整地学习一遍JavaScript的入门教程（[http://www.runoob.com/js/js-tutorial.html）；](http://www.runoob.com/js/js-tutorial.html）；)
+* JQuery的入门教程：[http://www.w3school.com.cn/jquery/index.asp](http://www.w3school.com.cn/jquery/index.asp)
+* Vue的官网文档： [https://cn.vuejs.org/v2/guide/](https://cn.vuejs.org/v2/guide/)
+* React的中文文档： [https://doc.react-china.org/docs/hello-world.html](https://doc.react-china.org/docs/hello-world.html)
 
 
 
