@@ -1,6 +1,20 @@
 ### 3.1 jQuery是什么
 
-jQuery 是一个跨浏览器的 JavaScript 库， 极大地简化了 JavaScript 编程。例如JavaScript 访问某个 HTML 元素，以下是JavaScript原生实现代码：
+jQuery 是一个跨浏览器的 JavaScript 函数 库，它包含以下特性：
+
+* HTML 元素选取
+
+* HTML 元素操作
+* CSS 操作
+* HTML 事件函数
+* JavaScript 特效和动画
+* HTML DOM 遍历和修改
+* AJAX
+* Utilities
+
+**jQuery极大地简化了 JavaScript 编程。**
+
+例如JavaScript 访问某个 HTML 元素，以下是JavaScript原生实现代码：
 
 ```
 <!DOCTYPE html>
@@ -23,6 +37,8 @@ document.getElementById("demo").innerHTML="My First JavaScript";
 [在线试一试](http://www.w3school.com.cn/tiy/t.asp?f=js_dom)
 
 JavaScript 访问某个 HTML 元素，以下是JQuery实现代码：
+
+**jQuery 库可以通过一行简单的标记（&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"&gt;&lt;/script&gt;）被添加到网页中。**
 
 ```
 <!DOCTYPE html>
