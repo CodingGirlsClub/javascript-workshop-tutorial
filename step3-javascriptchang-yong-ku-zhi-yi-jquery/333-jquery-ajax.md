@@ -84,11 +84,11 @@ $("#div1").load("demo_test.txt #p1");
 可选的 callback 参数规定当 load\(\) 方法完成后所要允许的回调函数。回调函数可以设置不同的参数：
 
 * responseTxt
-  - 包含调用成功时的结果内容
+  * 包含调用成功时的结果内容
 * statusTXT
-  - 包含调用的状态
+  * 包含调用的状态
 * xhr
-  - 包含 XMLHttpRequest 对象
+  * 包含 XMLHttpRequest 对象
 
 下面的例子会在 load\(\) 方法完成后显示一个提示框。如果 load\(\) 方法已成功，则显示"外部内容加载成功！"，而如果失败，则显示错误消息：
 
@@ -103,7 +103,50 @@ $("button").click(function(){
 });
 ```
 
+#### HTTP 请求：GET vs. POST
 
+jQuery get\(\) 和 post\(\) 方法用于通过 HTTP GET 或 POST 请求从服务器请求数据。
+
+两种在客户端和服务器端进行请求-响应的常用方法是：GET 和 POST。
+
+* _GET_
+  - 从指定的资源请求数据
+* _POST_
+  - 向指定的资源提交要处理的数据
+
+GET 基本上用于从服务器获得（取回）数据。注释：GET 方法可能返回缓存数据。
+
+POST 也可用于从服务器获取数据。不过，POST 方法不会缓存数据，并且常用于连同请求一起发送数据。
+
+#### jQuery $.get\(\) 方法
+
+$.get\(\) 方法通过 HTTP GET 请求从服务器上请求数据。
+
+#### 语法：
+
+```
+$.get(URL,callback);
+```
+
+必需的URL参数规定您希望请求的 URL。
+
+可选的callback参数是请求成功后所执行的函数名。
+
+下面的例子使用 $.get\(\) 方法从服务器上的一个文件中取回数据：
+
+```
+$("button").click(function(){
+  $.get("demo_test.json",function(data,status){
+    alert("数据: " + data + "\n状态: " + status);
+  });
+});
+```
+
+$.get\(\) 的第一个参数是我们希望请求的 URL（"demo\_test.json"）。
+
+第二个参数是回调函数。第一个回调参数存有被请求页面的内容，第二个回调参数存有请求的状态。
+
+**提示：**这个 PHP 文件 \("demo\_test.json"\) 类似这样：
 
 
 
