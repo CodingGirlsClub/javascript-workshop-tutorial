@@ -44,11 +44,14 @@ document.getElementById("demo").innerHTML="My First JavaScript";
 
 JavaScript 访问某个 HTML 元素，以下是JQuery实现代码：
 
-**jQuery 库可以通过一行简单的标记（&lt;script src="**[https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"&gt;&lt;/script&gt;）被添加到网页中。](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>）被添加到网页中。)
+**jQuery 库可以通过一行简单的标记（&lt;script src="**\[[https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"&gt;&lt;/script&gt;）被添加到网页中。\]\(https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"&gt;](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>）被添加到网页中。]%28https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js">)&lt;/script&gt;）被添加到网页中。\)
 
 ```
 <!DOCTYPE html>
 <html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+</head>
 <body>
 
 <h1></h1>
