@@ -10,6 +10,6 @@
   * [2.3 JavaScript操作HTML元素](step2-javascriptyu-fa-tang/23-javascriptcao-zuo-html-yuan-su.md)
 * [Step3: JavaScript常用库之一JQuery](step3-javascriptchang-yong-ku-zhi-yi-jquery.md)
 * Step4: JQuery实践初体验
-* Step5: JavaScript学习成果汇总
+* [Step5: JavaScript学习成果汇总](step5-javascriptxue-xi-cheng-guo-hui-zong.md)
 * [No ending: 总结与展望](stage-of-zong-jie-yu-zhan-wang.md)
 
