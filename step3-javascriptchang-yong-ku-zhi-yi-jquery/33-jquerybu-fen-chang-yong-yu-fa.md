@@ -7,5 +7,5 @@
 
 本启蒙教程只会提到部分常用的语法，完整的语法学习可以去[RUNOOB.COM](http://www.runoob.com/jquery/jquery-tutorial.html)
 
-[http://www.runoob.com/js/js-tutorial.html](http://www.runoob.com/jquery/jquery-tutorial.html)
+http://www.runoob.com/jquery/jquery-tutorial.html
 
