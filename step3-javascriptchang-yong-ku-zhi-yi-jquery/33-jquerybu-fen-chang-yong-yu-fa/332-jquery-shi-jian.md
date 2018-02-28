@@ -43,7 +43,9 @@ $("p").click(function(){
 });
 ```
 
-常用的jQuery事件方法的说明与示例详见[http://www.runoob.com/jquery/jquery-events.html](http://www.runoob.com/jquery/jquery-events.html)
+* 常用的jQuery事件方法的说明与示例详见[http://www.runoob.com/jquery/jquery-events.html](http://www.runoob.com/jquery/jquery-events.html)
+* jQuery还能实现隐藏、显示、切换，滑动，淡入淡出，以及动画等效果；详细的说明和示例详见[http://www.runoob.com/jquery/jquery-hide-show.html](http://www.runoob.com/jquery/jquery-hide-show.html)
+* jQuery操作HTML元素和属性详细的说明和示例详见http://www.runoob.com/jquery/jquery-dom-get.html
 
-jQuery还能实现隐藏、显示、切换，滑动，淡入淡出，以及动画等效果；详细的说明和示例详见http://www.runoob.com/jquery/jquery-hide-show.html
+
 
