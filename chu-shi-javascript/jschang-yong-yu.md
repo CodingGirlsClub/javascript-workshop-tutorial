@@ -1,4 +1,4 @@
-### JavaScript（简称JS）常用术语
+### 1.1 JavaScript（简称JS）常用术语
 
 * #### JS数据类型
 

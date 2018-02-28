@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Step1:初识JavaScript](chu-shi-javascript.md)
-  * [JavaScript常用语](chu-shi-javascript/jschang-yong-yu.md)
+  * [1.1JavaScript常用语](chu-shi-javascript/jschang-yong-yu.md)
 * [Step2: JavaScript语法](step2-javascriptyu-fa-tang.md)
   * [JavaScript的使用](step2-javascriptyu-fa-tang/javascriptde-shi-yong.md)
 * [Step3: JavaScript常用库之一JQuery](step3-javascriptchang-yong-ku-zhi-yi-jquery.md)
