@@ -42,5 +42,15 @@ $('#demo').html('My First JavaScript');
 </html>
 ```
 
+**jQuery 是一个“写的更少，但做的更多”的轻量级 JavaScript 库。**
+
+基本上，您将学习到如何选取 HTML 元素，以及如何对它们执行类似隐藏、移动以及操作其内容等任务。
+
+**学习需要对以下知识有基本的了解：**
+
+* HTML
+* CSS
+* JavaScript
+
 
 
