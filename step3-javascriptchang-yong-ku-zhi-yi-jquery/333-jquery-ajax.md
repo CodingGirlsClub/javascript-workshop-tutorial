@@ -110,9 +110,9 @@ jQuery get\(\) 和 post\(\) 方法用于通过 HTTP GET 或 POST 请求从服务
 两种在客户端和服务器端进行请求-响应的常用方法是：GET 和 POST。
 
 * _GET_
-  - 从指定的资源请求数据
+  * 从指定的资源请求数据
 * _POST_
-  - 向指定的资源提交要处理的数据
+  * 向指定的资源提交要处理的数据
 
 GET 基本上用于从服务器获得（取回）数据。注释：GET 方法可能返回缓存数据。
 
@@ -137,7 +137,7 @@ $.get(URL,callback);
 ```
 $("button").click(function(){
   $.get("demo_test.json",function(data,status){
-    alert("数据: " + data + "\n状态: " + status);
+    alert("数据: " + data.test + "\n状态: " + status);
   });
 });
 ```
@@ -146,7 +146,19 @@ $.get\(\) 的第一个参数是我们希望请求的 URL（"demo\_test.json"）�
 
 第二个参数是回调函数。第一个回调参数存有被请求页面的内容，第二个回调参数存有请求的状态。
 
-**提示：**这个 PHP 文件 \("demo\_test.json"\) 类似这样：
+**提示：**这个JSON 文件 \("demo\_test.json"\) 类似这样：
+
+```
+{"test": "这是个从JSON文件中读取的数据。"}
+```
+
+
+
+
+
+
+
+
 
 
 
