@@ -6,6 +6,14 @@
 4. 掌握移一两个流行的MVVM JavaScript框架（推荐Vue或React）；
 5. ……
 
+#### Assignment：
+
+1. 继续完成学习计划，整理代码。
+2. 独立完成一个登录界面。
+3. 与其他学员和教练分享心得。
+
+
+
 ##### **PS： 学习资源推荐：**
 
 * 完整地学习一遍JavaScript的入门教程（[http://www.runoob.com/js/js-tutorial.html）；](http://www.runoob.com/js/js-tutorial.html）；)
