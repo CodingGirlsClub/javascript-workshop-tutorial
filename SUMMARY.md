@@ -11,7 +11,7 @@
 * [Step3: JavaScript常用库之一JQuery](step3-javascriptchang-yong-ku-zhi-yi-jquery.md)
   * [3.1 什么是jQuery](step3-javascriptchang-yong-ku-zhi-yi-jquery/31-shi-yao-shi-jquery.md)
   * [3.2 jQuery下载与安装](step3-javascriptchang-yong-ku-zhi-yi-jquery/32-jqueryxia-zai-yu-an-zhuang.md)
-  * 3.3 jQuery部分常用语法
+  * [3.3 jQuery部分常用语法](step3-javascriptchang-yong-ku-zhi-yi-jquery/33-jquerybu-fen-chang-yong-yu-fa.md)
 * [Step4: JQuery实践初体验](step4-jqueryshi-jian-chu-ti-yan.md)
 * [Step5: JavaScript学习成果汇总](step5-javascriptxue-xi-cheng-guo-hui-zong.md)
 * [No ending: 总结与展望](stage-of-zong-jie-yu-zhan-wang.md)
