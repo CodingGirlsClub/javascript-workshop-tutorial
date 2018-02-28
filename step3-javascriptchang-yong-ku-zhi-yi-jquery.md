@@ -1,12 +1,4 @@
-### 3: JavaScript常用库之一JQuery
-
-
-
-
-
-
-
-
+### 3. JavaScript常用库之一JQuery
 
 
 
