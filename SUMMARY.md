@@ -2,7 +2,8 @@
 
 * [Introduction](README.md)
 * [Step1:初识JavaScript](chu-shi-javascript.md)
-  * [1.1JavaScript常用语](chu-shi-javascript/jschang-yong-yu.md)
+  * [1.1JavaScript的概念和学习目的](chu-shi-javascript/11javascriptde-gai-nian-he-xue-xi-mu-de.md)
+  * [1.2JavaScript常用语](chu-shi-javascript/jschang-yong-yu.md)
 * [Step2: JavaScript语法](step2-javascriptyu-fa-tang.md)
   * [2.1 JavaScript的使用](step2-javascriptyu-fa-tang/javascriptde-shi-yong.md)
   * [2.2 JavaScript注释](step2-javascriptyu-fa-tang/22-javascriptzhu-shi.md)
