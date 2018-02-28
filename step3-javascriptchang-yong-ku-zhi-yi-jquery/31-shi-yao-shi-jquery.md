@@ -37,7 +37,7 @@ JavaScript 访问某个 HTML 元素，以下是JQuery实现代码：
 // 通过指定的 id 来访问 HTML 元素，并改变其内容
 $('#demo').html('My First JavaScript');
 </script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 </body>
 </html>
 ```
