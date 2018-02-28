@@ -12,12 +12,10 @@
 2. 独立完成一个登录界面。
 3. 与其他学员和教练分享心得。
 
-
-
 ##### **PS： 学习资源推荐：**
 
 * 完整地学习一遍JavaScript的入门教程（[http://www.runoob.com/js/js-tutorial.html）；](http://www.runoob.com/js/js-tutorial.html）；)
-* JQuery的入门教程：[http://www.w3school.com.cn/jquery/index.asp](http://www.w3school.com.cn/jquery/index.asp)
+* JQuery的入门教程：[http://www.w3school.com.cn/jquery/index.asp](http://www.runoob.com/jquery/jquery-tutorial.html)
 * Vue的官网文档： [https://cn.vuejs.org/v2/guide/](https://cn.vuejs.org/v2/guide/)
 * React的中文文档： [https://doc.react-china.org/docs/hello-world.html](https://doc.react-china.org/docs/hello-world.html)
 
